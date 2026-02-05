@@ -92,7 +92,7 @@ public final class MongoProvider implements AutoCloseable {
      *
      * @return coleccion MongoDB que almacena documentos de alumnos
      */
-    public MongoCollection<Document> empleados() {
+    public MongoCollection<Document> partida() {
         return collection;
     }
 
